@@ -84,7 +84,7 @@ public class Calculator {
 	int sum(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
-		return first + second;
+		return first - second;
 	}
 
 	int subtract(int first, int second) {
