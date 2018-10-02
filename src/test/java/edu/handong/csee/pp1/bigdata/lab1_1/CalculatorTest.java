@@ -29,12 +29,13 @@ public class CalculatorTest {
 	@Test
 	public void testMod() {
 		Calculator myCalc = new Calculator();
-		assertEquals(myCalc.subtract(9, 4),1);
+		assertEquals(myCalc.mod(9, 4),1);
 	}
 
 	@Test
 	public void testMultiply() {
-		// TODO Complete this test case
+		Calculator myCalc = new Calculator();
+		assertEquals(myCalc.multiply(2, 8),16);
 	}
 	
 	@Test
