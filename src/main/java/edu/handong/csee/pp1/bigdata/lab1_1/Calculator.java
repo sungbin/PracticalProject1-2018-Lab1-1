@@ -102,6 +102,10 @@ public class Calculator {
 	int divide(int first, int second) {
 		countForAnyCompution++;
 		localCount++;
+		if(second == 0) {
+			System.out.println("Exception: can not divide as zero");
+			return -1;
+		}
 		return first / second;
 	}
 
